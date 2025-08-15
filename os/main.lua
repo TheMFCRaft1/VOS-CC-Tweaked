@@ -2,6 +2,9 @@
 os.loadAPI("/os/gui.lua")
 os.loadAPI("/os/window.lua")
 os.loadAPI("/os/events.lua")
+os.loadAPI("/os/update.lua")
+
+update.checkUpdate()
 
 term.setBackgroundColor(colors.black)
 term.clear()
